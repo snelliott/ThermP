@@ -2,12 +2,8 @@
       program thermp
 
 c
-c     This program reads the canonical partition functions from paper
-c     and 
-c     (i) converts them into a table of Cp, S, and H.
-c     (ii) calls the Gordon and McBride code pac99
-c     (iii) converts the polynomials from Nada new format/old polynomial to
-c     ChemKin format 
+c     This program reads the canonical partition functions from MESS program
+c     and converts them into a table of Cp, S, and H.
 c
 
       implicit double precision (a-h,o-z)
@@ -310,24 +306,10 @@ c              ht = (hints(nt+1)-hints(nt+1))*ckctokj
          write (15,9010) 'FINISH'
          close (UNIT=15,status='keep')
 
-c 
-c run pac99
-c 
-c     call pac99run(spname)
-
-c
-c convert polynomial from NASA format to 
-c ChemKin format
-c
-
  100  continue
-
-c     close (unit=18,status='keep')
 
       stop
       end
 
 
 c     **********************************************************************
-
-
