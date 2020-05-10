@@ -22,7 +22,7 @@ jobs:
                   source activate thermp-env
                   . debug/fake-install.sh
                   cd examples/
-                  bash thermp
+                  thermp
                   cd ..
 workflows:
     version: 2
