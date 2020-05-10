@@ -1,0 +1,5 @@
+name: thermp-env
+
+dependencies:
+    - cmake
+    - gfortran_linux-64  # [linux]
