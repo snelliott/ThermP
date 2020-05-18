@@ -1,6 +1,6 @@
 # ThermP
 
-This program reads in canonical partition functions and converts them into a table of thermochemical parameters: Cp, S, and H.
+This program reads in canonical partition functions and calculates them them into thermochemical parameters: Cp, S, and H.
 
 ### Requirements
 
