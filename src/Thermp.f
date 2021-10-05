@@ -57,6 +57,7 @@ c     for tt = tt + dp and tt = tt - dp
 c     read in the partition function data
       read(27,*)
       read(27,*)
+      read(27,*)
       do it = 1 , nt + 1
          ntot = nspecies*3
          read (27,*) tt(it),(qtmp(itmp),itmp=1,ntot)
