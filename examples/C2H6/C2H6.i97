@@ -1,6 +1,6 @@
 NAME  C2H6                                                                            
 C2H6                    HF298     -84837. JOULES
-DATE  20211005
+DATE  20211006
 REFN  ME
 LSTS  OLD               T       200.      T       200.      T      1000.
 LSTS  T      3000.
@@ -40,7 +40,7 @@ METH  READIN            KJOULE            BAR
 FINISH
 NAME  C2H6                                                                            
 C2H6                    HF298     -84837. JOULES
-DATE  20211005
+DATE  20211006
 REFN  ME
 LSTS  T       200.      T       200.      T      1000.
 OUTP  LSQS  
