@@ -21,9 +21,9 @@ jobs:
               command: |
                   source activate thermp-env
                   . debug/fake-install.sh
-                  cd examples/
+                  cd examples/C2H6
                   thermp
-                  cd ..
+                  cd ../..
 workflows:
     version: 2
     build-all:
